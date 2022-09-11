@@ -2,6 +2,8 @@
 
 Spring Boot application demonstrating batch consume behaviour when a message throws an exception.
 
+This repo accompanies the article [Kafka Message Batch Consumer Retry](https://medium.com/lydtech-consulting/kafka-message-batch-consumer-retry-8e49bdb39f5c).
+
 ## Component Tests
 
 The tests demonstrate sending a batch of events to a dockerised Kafka that are then consumed as a batch by the dockerised application.
